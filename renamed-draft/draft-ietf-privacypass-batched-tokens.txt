@@ -4,13 +4,13 @@
 
 Network Working Group                                          R. Robert
 Internet-Draft                                               Phoenix R&D
-Intended status: Informational                                C. A. Wood
-Expires: 14 September 2023                                    Cloudflare
-                                                           13 March 2023
+Intended status: Standards Track                              C. A. Wood
+Expires: 12 March 2024                                        Cloudflare
+                                                        9 September 2023
 
 
                     Batched Token Issuance Protocol
-             draft-robert-privacypass-batched-tokens-latest
+              draft-ietf-privacypass-batched-tokens-latest
 
 Abstract
 
@@ -34,7 +34,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 September 2023.
+   This Internet-Draft will expire on 12 March 2024.
 
 Copyright Notice
 
@@ -343,22 +343,22 @@ def FinalizeBatch(input, blind, evaluatedElements, blindedElements, proof):
 
    [ARCH]     Davidson, A., Iyengar, J., and C. A. Wood, "The Privacy
               Pass Architecture", Work in Progress, Internet-Draft,
-              draft-ietf-privacypass-architecture-11, 6 March 2023,
+              draft-ietf-privacypass-architecture-14, 9 August 2023,
               <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-architecture-11>.
+              privacypass-architecture-14>.
 
    [AUTHSCHEME]
               Pauly, T., Valdez, S., and C. A. Wood, "The Privacy Pass
               HTTP Authentication Scheme", Work in Progress, Internet-
-              Draft, draft-ietf-privacypass-auth-scheme-09, 6 March
+              Draft, draft-ietf-privacypass-auth-scheme-12, 9 August
               2023, <https://datatracker.ietf.org/doc/html/draft-ietf-
-              privacypass-auth-scheme-09>.
+              privacypass-auth-scheme-12>.
 
-   [ISSUANCE] Celi, S., Davidson, A., Faz-Hernandez, A., Valdez, S., and
-              C. A. Wood, "Privacy Pass Issuance Protocol", Work in
-              Progress, Internet-Draft, draft-ietf-privacypass-protocol-
-              10, 6 March 2023, <https://datatracker.ietf.org/doc/html/
-              draft-ietf-privacypass-protocol-10>.
+   [ISSUANCE] Celi, S., Davidson, A., Valdez, S., and C. A. Wood,
+              "Privacy Pass Issuance Protocol", Work in Progress,
+              Internet-Draft, draft-ietf-privacypass-protocol-12, 16
+              August 2023, <https://datatracker.ietf.org/doc/html/draft-
+              ietf-privacypass-protocol-12>.
 
    [OPRF]     Davidson, A., Faz-Hernandez, A., Sullivan, N., and C. A.
               Wood, "Oblivious Pseudorandom Functions (OPRFs) using
